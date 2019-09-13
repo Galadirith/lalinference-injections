@@ -33,9 +33,33 @@
 
    2. **Generating detector response**
 
+      ```bash
+      generate_hwinj_HM.sh
+
+      # or
+
+      generate_hwinj_HM.sh
+      ```
+
 2. **Prepare responses as frame files for each detector**
 
+```bash
+insert_frame_hwinj.sh
+```
+
 3. **Perform parameter estimation on frame files**
+
+```bash
+pipe_HM.sh
+
+# or
+
+pipe_NRTidal.sh
+
+# or
+
+pipe_Pv2.sh
+```
 
 ## License
 
