@@ -29,7 +29,7 @@ pycbc_generate_hwinj \
 --gps-start-time 1249851715 \
 --gps-end-time 1249852276 \
 --tag 'HWINJ' \
---psd-file \
+--asd-file \
 H1:/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_high_P.txt \
 L1:/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_high_P.txt \
 V1:/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/share/lalsimulation/LIGO-P1200087-v18-AdV_DESIGN.txt
