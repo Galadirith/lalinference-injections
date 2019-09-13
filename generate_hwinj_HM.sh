@@ -30,6 +30,6 @@ pycbc_generate_hwinj \
 --gps-end-time 1249852276 \
 --tag 'HWINJ' \
 --psd-file \
-H1:/home/c1633366/PhenomHM_injection/injection-resources/glitch_median_PSD_forLI_H1.dat \
-L1:/home/c1633366/PhenomHM_injection/injection-resources/glitch_median_PSD_forLI_L1.dat \
-V1:/home/c1633366/PhenomHM_injection/injection-resources/glitch_median_PSD_forLI_V1.dat
+H1:/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_high_P.txt \
+L1:/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_high_P.txt \
+V1:/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/share/lalsimulation/LIGO-P1200087-v18-AdV_DESIGN.txt

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-HWINJ_TIMES=($(/home/c1633366/PhenomHM_injection/injection-resources/get-hwinj-times.py 2048 H1))
+HWINJ_TIMES=($(./get-hwinj-times.py 2048 H1))
 
 rm *_H1.gwf
 H1_HWINJ_FILE=(*H1.txt)
@@ -44,4 +44,4 @@ pycbc_insert_frame_hwinj \
 --fake-strain zeroNoise \
 --low-frequency-cutoff 20
 
-/home/c1633366/PhenomHM_injection/injection-resources/get-times.py H1
+./get-times.py H1
